@@ -78,12 +78,9 @@ footer {background-color:#026873;
             color: white;
             height: 10em;}
             
-footer {display:flex;
-                    flex-direction: row;
-                    justify-content: center;}
+
             
-footer section {margin: 16px;
-                    padding: 16px;}
+footer section {padding: 16px;}
 
 
 
