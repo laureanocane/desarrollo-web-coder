@@ -34,7 +34,7 @@ nav ul li:hover{transform:skewy(4deg);
 .priciplahero {height:100%;}
 
 .ImagenTamaño{
-        height: 150vh;
+        height: 100%;
         width: 100%;
         object-fit:cover;
       }
@@ -49,7 +49,7 @@ border-radius: 5px;}
 .translateParrafo {transform:translate(80px, 60px);
     position: inherit;
     z-index: 3;}
-.traslateimagen {transform: translateY(-50%);
+.traslateimagen {transform: translateY(-40%);
 position: relative;
 z-index: -1;}
 
@@ -70,7 +70,8 @@ z-index: -1;}
                     animation-duration:600ms;
                     animation-delay: 500ms;}
 
-.works{margin-top: -30rem;
+.works{
+    margin-top:8 rem;
         margin-bottom: 1rem;}
 
 
@@ -113,4 +114,6 @@ input.botonCancelar {border-radius: 50px;
             padding: 8px;
             margin-top: 10px;
             height: 100px;}
-                    
+
+.servicios{background-color: #e7e7e7;
+        height:200px;}
