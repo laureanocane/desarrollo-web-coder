@@ -33,6 +33,8 @@ nav ul li:hover{transform:skewy(4deg);
 
 .priciplahero {height:100%;}
 
+.h1 {font-size: 10rem;}
+
 .ImagenTamaño{
         height: 100%;
         width: 100%;
@@ -46,10 +48,11 @@ nav ul li:hover{transform:skewy(4deg);
 .parrafo{background-color: rgba(255, 255, 255, 0.5);
 border-radius: 5px;}
     
-.translateParrafo {transform:translate(80px, 60px);
+.translateParrafo {
     position: inherit;
+    margin-left: 20%;
     z-index: 3;}
-.traslateimagen {transform: translateY(-40%);
+.traslateimagen {
 position: relative;
 z-index: -1;}
 
@@ -116,4 +119,5 @@ input.botonCancelar {border-radius: 50px;
             height: 100px;}
 
 .servicios{background-color: #e7e7e7;
-        height:200px;}
+        height:200px;
+    padding: 3%;}
