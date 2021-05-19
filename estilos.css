@@ -37,6 +37,7 @@ nav ul li:hover{transform:skewy(4deg);
 .h1 {font-size: 9rem;
 text-align: center;}
 
+
 .ImagenTamaño{
         height: 50%;
         width: 50%;
@@ -55,9 +56,29 @@ border-radius: 5px;}
     position: inherit;
     margin-left: 20%;
     z-index: 3;}
-.traslateimagen {
+.traslateimagen { transform: translateX(40%);
 position: relative;
 z-index: -1;}
+
+@media (max-width: 576px) { .ImagenTamaño{
+    height: 50%;
+    width: 50%;
+    object-fit:cover;}
+
+.h1 {font-size: 2rem;
+    text-align: center;}    
+
+.titulo {font-size:2rem;
+    font-weight: 900;
+color: #026873;}
+
+.parrafo{background-color: rgba(255, 255, 255, 0.5);
+border-radius: 5px;
+font-size: 1rem;}
+
+.traslateimagen { transform: translateX(20%);
+position: relative;
+z-index: -1;} }
 
 @keyframes imagenes {0%{width:0vh; height: auto; opacity: 0%;}
                     10%{width:10vh; height: auto; opacity: 10%;}
