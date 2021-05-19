@@ -33,7 +33,8 @@ nav ul li:hover{transform:skewy(4deg);
 
 .priciplahero {height:100%;}
 
-.h1 {font-size: 10rem;}
+.h1 {font-size: 9rem;
+text-align: center;}
 
 .ImagenTamaño{
         height: 100%;
